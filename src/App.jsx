@@ -516,8 +516,8 @@ const generatePDF = (userData, answers) => {
 
 // ─── Shared Header ─────────────────────────────────────────────────────────
 const Header = () => (
-  <div className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50 px-6 py-3 flex items-center justify-between">
-    <img src={LOGO_URL} alt="Effilor Consulting Services" className="h-10 w-auto" />
+  <div className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50 px-6 py-4 flex flex-col items-center justify-center">
+    <img src={LOGO_URL} alt="Effilor Consulting Services" className="h-12 w-auto mb-1" />
     <span className="text-xs font-semibold tracking-widest uppercase px-3 py-1 rounded-full"
       style={{ background: 'rgba(107,61,122,0.1)', color: PURPLE }}>
       AI Mindset Assessment
